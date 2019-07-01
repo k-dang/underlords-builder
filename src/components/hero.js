@@ -26,12 +26,16 @@ const Hero = props => {
   )
 
   return (
-    <Img
-      fluid={
-        data.images.edges.find(image => image.node.relativePath === props.src)
-          .node.childImageSharp.fluid
-      }
-    />
+    <div style={{
+      padding: `8px 8px 0 0`,
+    }}>
+      <Img
+        fluid={
+          data.images.edges.find(image => image.node.relativePath === props.src)
+            .node.childImageSharp.fluid
+        }
+      />
+    </div>
   )
 }
 

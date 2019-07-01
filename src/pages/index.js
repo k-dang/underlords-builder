@@ -17,7 +17,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Builder allHeroes={structured} el={structured.get("Elusive")}></Builder>
+      <Builder allHeroes={structured}></Builder>
     </Layout>
   )
 }

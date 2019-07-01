@@ -12,10 +12,19 @@
   margin: 0 8px 8px 0;
 }
 
+.allHeroes span {
+  font-size: 18px;
+}
+
 .comp {
   flex: 1;
 }
 
+.compFixed {
+  position: fixed;
+}
+
+/* should be moved to own component */
 .heroGroup {
   display: flex;
   flex-wrap: wrap;

@@ -67,27 +67,34 @@ const Builder = props => {
     <div className={builderStyles.container}>
       <div className={builderStyles.allHeroes}>
         {arraKeys.map((cl, index) => (
-          <HeroGroup key={index} heroes={props.allHeroes.get(cl)} addHero={addHero} class={cl}></HeroGroup>
+          <HeroGroup
+            key={index}
+            heroes={props.allHeroes.get(cl)}
+            addHero={addHero}
+            class={cl}
+          ></HeroGroup>
         ))}
       </div>
       <div className={builderStyles.comp}>
-        <span>Your Team</span>
-        <div className={builderStyles.heroGroup}>
-          {listOfHeroes.map((hero, index) => (
-            <div
-              key={index}
-              onClick={e => removeHero(index)}
-              className={builderStyles.heroContainer}
-            >
-              <Hero name={hero.name} src={hero.avatar}></Hero>
-            </div>
-          ))}
-        </div>
-        <h2>Buffs</h2>
-        <div>
-          {buffs.map((buff, index) => (
-            <p key={index}>{buff}</p>
-          ))}
+        <div className={builderStyles.compFixed}>
+          <span>Your Team</span>
+          <div className={builderStyles.heroGroup}>
+            {listOfHeroes.map((hero, index) => (
+              <div
+                key={index}
+                onClick={e => removeHero(index)}
+                className={builderStyles.heroContainer}
+              >
+                <Hero name={hero.name} src={hero.avatar}></Hero>
+              </div>
+            ))}
+          </div>
+          <h1>Alliance buffs</h1>
+          <div>
+            {buffs.map((buff, index) => (
+              <p key={index}>{buff}</p>
+            ))}
+          </div>
         </div>
       </div>
     </div>
