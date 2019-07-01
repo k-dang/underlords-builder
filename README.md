@@ -2,4 +2,10 @@
 
 ## Built with Gatsby
 
-gatsby develop
+data is build with a script
+
+`gatsby develop`
+
+`gastby build`
+
+deployed on netlify
