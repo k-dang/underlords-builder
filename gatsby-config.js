@@ -23,10 +23,22 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/src/data`,
-      }
+      },
     },
     `gatsby-transformer-json`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Dota Underlords Builder`,
+        short_name: `duBuilder`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `static/upside-down-smiley.svg`,
+      },
+    },
   ],
 }

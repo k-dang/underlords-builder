@@ -66,7 +66,6 @@ function SEO({ description, lang, meta, title }) {
         href="https://fonts.googleapis.com/css?family=Lato&display=swap"
         rel="stylesheet"
       ></link>
-      <link rel="icon" href="upside-down-smiley.svg"></link>
     </Helmet>
   )
 }
