@@ -40,5 +40,11 @@ module.exports = {
         icon: `static/upside-down-smiley.svg`,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-55175523-3",
+      },
+    },
   ],
 }
