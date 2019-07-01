@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Hero from "../components/hero"
+import Image from "./image"
 import HeroGroup from "../components/herogroup"
 import builderStyles from "./builder.module.css"
 import { classes } from "./data"
@@ -30,8 +30,13 @@ const Builder = props => {
         // check if total can be modulus
         if (value % f.min >= 0) {
           const rank = value / f.min
-          if (f.ranks[floorMax(rank, f.max / f.min)]) {
-            updatedBuffs.push(f.ranks[floorMax(rank, f.max / f.min)])
+          const fMax = floorMax(rank, f.max / f.min)
+          if (f.ranks[fMax]) {
+            updatedBuffs.push({
+              icon: f.icon,
+              times: 1,
+              text: f.ranks[fMax],
+            })
             heroesUsed.push()
           }
         }
@@ -62,7 +67,9 @@ const Builder = props => {
     setList(copy)
     setBuffs(updateBuffs(copy))
   }
+
   const arraKeys = Array.from(props.allHeroes.keys())
+
   return (
     <div className={builderStyles.container}>
       <div className={builderStyles.allHeroes}>
@@ -85,16 +92,23 @@ const Builder = props => {
                 onClick={e => removeHero(index)}
                 className={builderStyles.heroContainer}
               >
-                <Hero name={hero.name} src={hero.avatar}></Hero>
+                <Image name={hero.name} src={hero.avatar}></Image>
               </div>
             ))}
           </div>
           <h1>Alliance buffs</h1>
-          <div>
-            {buffs.map((buff, index) => (
-              <p key={index}>{buff}</p>
-            ))}
-          </div>
+          {buffs.map((buff, index) => (
+            <div key={index} style={{marginBottom: `10px`}}>
+              <div className={builderStyles.buffGroupContainer}>
+                {Array.from(Array(buff.times)).map((i, ind) => (
+                  <div key={ind} className={builderStyles.buffContainer}>
+                    <Image src={buff.icon}></Image>
+                  </div>
+                ))}
+              </div>
+              <span>{buff.text}</span>
+            </div>
+          ))}
         </div>
       </div>
     </div>

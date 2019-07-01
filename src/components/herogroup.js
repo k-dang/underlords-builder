@@ -1,5 +1,5 @@
 import React from "react"
-import Hero from "../components/hero"
+import Image from "./image"
 import herogroupStyles from "./herogroup.module.css"
 
 const HeroGroup = props => {
@@ -13,7 +13,7 @@ const HeroGroup = props => {
             onClick={e => props.addHero(node)}
             className={herogroupStyles.heroContainer}
           >
-            <Hero name={node.name} src={node.avatar}></Hero>
+            <Image name={node.name} src={node.avatar}></Image>
           </div>
         ))}
       </div>

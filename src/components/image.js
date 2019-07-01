@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-const Hero = props => {
+const Image = props => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -26,22 +26,18 @@ const Hero = props => {
   )
 
   return (
-    <div style={{
-      padding: `8px 8px 0 0`,
-    }}>
-      <Img
-        fluid={
-          data.images.edges.find(image => image.node.relativePath === props.src)
-            .node.childImageSharp.fluid
-        }
-      />
-    </div>
+    <Img
+      fluid={
+        data.images.edges.find(image => image.node.relativePath === props.src)
+          .node.childImageSharp.fluid
+      }
+    />
   )
 }
 
-Hero.propTypes = {
+Image.propTypes = {
   name: PropTypes.string,
   src: PropTypes.string.isRequired,
 }
 
-export default Hero
+export default Image

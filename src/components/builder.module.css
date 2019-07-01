@@ -9,19 +9,24 @@
 }
 
 .allHeroes > div {
-  margin: 0 8px 8px 0;
-}
-
-.allHeroes span {
-  font-size: 18px;
+  margin: 8px 30px 0 0;
 }
 
 .comp {
+  margin-top: 8px;
   flex: 1;
 }
 
 .compFixed {
   position: fixed;
+}
+
+.buffGroupContainer {
+  display: flex;
+}
+
+.buffContainer {
+  width: 25px;
 }
 
 /* should be moved to own component */
@@ -31,5 +36,5 @@
 }
 
 .heroContainer {
-  width: 54px;
+  width: 62px;
 }
