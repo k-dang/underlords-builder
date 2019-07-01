@@ -1,0 +1,485 @@
+[
+    {
+        "name": "Anti-mage",
+        "avatar": "Anti-mage_icon.png",
+        "class": [
+            "Elusive",
+            "Demon Hunter"
+        ]
+    },
+    {
+        "name": "Axe",
+        "avatar": "Axe_icon.png",
+        "class": [
+            "Brawny",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Batrider",
+        "avatar": "Batrider_icon.png",
+        "class": [
+            "Troll",
+            "Knight"
+        ]
+    },
+    {
+        "name": "Bloodseeker",
+        "avatar": "Bloodseeker_icon.png",
+        "class": [
+            "Human",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Bounty",
+        "avatar": "Bounty_hunter_icon.png",
+        "class": [
+            "Scrappy",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Clockwerk",
+        "avatar": "Clockwerk_icon.png",
+        "class": [
+            "Scrappy",
+            "Inventor"
+        ]
+    },
+    {
+        "name": "Drow",
+        "avatar": "Drow_ranger_icon.png",
+        "class": [
+            "Heartless",
+            "Hunter"
+        ]
+    },
+    {
+        "name": "Enchantress",
+        "avatar": "Enchantress_icon.png",
+        "class": [
+            "Savage",
+            "Druid"
+        ]
+    },
+    {
+        "name": "Ogre",
+        "avatar": "Ogre_magi_icon.png",
+        "class": [
+            "Blood-bound",
+            "Mage"
+        ]
+    },
+    {
+        "name": "Shadow",
+        "avatar": "Shadow_shaman_icon.png",
+        "class": [
+            "Troll",
+            "Shaman"
+        ]
+    },
+    {
+        "name": "Tinker",
+        "avatar": "Tinker_icon.png",
+        "class": [
+            "Scrappy",
+            "Inventor"
+        ]
+    },
+    {
+        "name": "Tiny",
+        "avatar": "Tiny_icon.png",
+        "class": [
+            "Primordial",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Tusk",
+        "avatar": "Tusk_icon.png",
+        "class": [
+            "Savage",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Warlock",
+        "avatar": "Warlock_hero_icon.png",
+        "class": [
+            "Blood-bound",
+            "Warlocks"
+        ]
+    },
+    {
+        "name": "Beastmaster",
+        "avatar": "Beastmaster_icon.png",
+        "class": [
+            "Brawny",
+            "Hunter"
+        ]
+    },
+    {
+        "name": "Chaos",
+        "avatar": "Chaos_knight_icon.png",
+        "class": [
+            "Demon",
+            "Knight"
+        ]
+    },
+    {
+        "name": "Crystal",
+        "avatar": "Crystal_maiden_icon.png",
+        "class": [
+            "Human",
+            "Mage"
+        ]
+    },
+    {
+        "name": "Juggernaut",
+        "avatar": "Juggernaut_icon.png",
+        "class": [
+            "Brawny",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Luna",
+        "avatar": "Luna_icon.png",
+        "class": [
+            "Elusive",
+            "Knight"
+        ]
+    },
+    {
+        "name": "Morphling",
+        "avatar": "Morphling_icon.png",
+        "class": [
+            "Primordial",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Nature%27s",
+        "avatar": "Nature%27s_prophet_icon.png",
+        "class": [
+            "Elusive",
+            "Druid"
+        ]
+    },
+    {
+        "name": "Puck",
+        "avatar": "Puck_icon.png",
+        "class": [
+            "Elusive",
+            "Dragon",
+            "Mage"
+        ]
+    },
+    {
+        "name": "Pudge",
+        "avatar": "Pudge_icon.png",
+        "class": [
+            "Heartless",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Queen",
+        "avatar": "Queen_of_pain_icon.png",
+        "class": [
+            "Demon",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Slardar",
+        "avatar": "Slardar_icon.png",
+        "class": [
+            "Scaled",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Timbersaw",
+        "avatar": "Timbersaw_icon.png",
+        "class": [
+            "Scrappy",
+            "Inventor"
+        ]
+    },
+    {
+        "name": "Treant",
+        "avatar": "Treant_protector_icon.png",
+        "class": [
+            "Elusive",
+            "Druid"
+        ]
+    },
+    {
+        "name": "Witch",
+        "avatar": "Witch_doctor_icon.png",
+        "class": [
+            "Troll",
+            "Warlocks"
+        ]
+    },
+    {
+        "name": "Abaddon",
+        "avatar": "Abaddon_icon.png",
+        "class": [
+            "Heartless",
+            "Knight"
+        ]
+    },
+    {
+        "name": "Arc",
+        "avatar": "Arc_warden_icon.png",
+        "class": [
+            "Primordial",
+            "Shaman"
+        ]
+    },
+    {
+        "name": "Lina",
+        "avatar": "Lina_icon.png",
+        "class": [
+            "Human",
+            "Mage"
+        ]
+    },
+    {
+        "name": "Lycan",
+        "avatar": "Lycan_icon.png",
+        "class": [
+            "Human",
+            "Savage",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Omniknight",
+        "avatar": "Omniknight_icon.png",
+        "class": [
+            "Human",
+            "Knight"
+        ]
+    },
+    {
+        "name": "Phantom",
+        "avatar": "Phantom_assassin_icon.png",
+        "class": [
+            "Elusive",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Razor",
+        "avatar": "Razor_icon.png",
+        "class": [
+            "Primordial",
+            "Mage"
+        ]
+    },
+    {
+        "name": "Sand",
+        "avatar": "Sand_king_icon.png",
+        "class": [
+            "Savage",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Shadow",
+        "avatar": "Shadow_fiend_icon.png",
+        "class": [
+            "Demon",
+            "Warlocks"
+        ]
+    },
+    {
+        "name": "Slark",
+        "avatar": "Slark_icon.png",
+        "class": [
+            "Scaled",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Sniper",
+        "avatar": "Sniper_icon.png",
+        "class": [
+            "Deadeye",
+            "Hunter"
+        ]
+    },
+    {
+        "name": "Terrorblade",
+        "avatar": "Terrorblade_icon.png",
+        "class": [
+            "Demon",
+            "Demon Hunter"
+        ]
+    },
+    {
+        "name": "Venomancer",
+        "avatar": "Venomancer_icon.png",
+        "class": [
+            "Savage",
+            "Warlocks"
+        ]
+    },
+    {
+        "name": "Viper",
+        "avatar": "Viper_icon.png",
+        "class": [
+            "Dragon",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Windranger",
+        "avatar": "Windranger_icon.png",
+        "class": [
+            "Elusive",
+            "Hunter"
+        ]
+    },
+    {
+        "name": "Alchemist",
+        "avatar": "Alchemist_icon.png",
+        "class": [
+            "Scrappy",
+            "Warlocks"
+        ]
+    },
+    {
+        "name": "Disruptor",
+        "avatar": "Disruptor_icon.png",
+        "class": [
+            "Brawny",
+            "Shaman"
+        ]
+    },
+    {
+        "name": "Doom",
+        "avatar": "Doom_icon.png",
+        "class": [
+            "Demon",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Dragon",
+        "avatar": "Dragon_knight_icon.png",
+        "class": [
+            "Human",
+            "Dragon",
+            "Knight"
+        ]
+    },
+    {
+        "name": "Keeper",
+        "avatar": "Keeper_of_the_light_icon.png",
+        "class": [
+            "Human",
+            "Mage"
+        ]
+    },
+    {
+        "name": "Kunkka",
+        "avatar": "Kunkka_icon.png",
+        "class": [
+            "Human",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Lone",
+        "avatar": "Lone_druid_icon.png",
+        "class": [
+            "Savage",
+            "Druid"
+        ]
+    },
+    {
+        "name": "Medusa",
+        "avatar": "Medusa_icon.png",
+        "class": [
+            "Scaled",
+            "Hunter"
+        ]
+    },
+    {
+        "name": "Mirana",
+        "avatar": "Mirana_icon.png",
+        "class": [
+            "Elusive",
+            "Hunter"
+        ]
+    },
+    {
+        "name": "Necrophos",
+        "avatar": "Necrophos_icon.png",
+        "class": [
+            "Heartless",
+            "Warlocks"
+        ]
+    },
+    {
+        "name": "Templar",
+        "avatar": "Templar_assassin_icon.png",
+        "class": [
+            "Elusive",
+            "Assassin"
+        ]
+    },
+    {
+        "name": "Troll",
+        "avatar": "Troll_warlord_icon.png",
+        "class": [
+            "Troll",
+            "Warrior"
+        ]
+    },
+    {
+        "name": "Enigma",
+        "avatar": "Enigma_icon.png",
+        "class": [
+            "Primordial",
+            "Warlocks"
+        ]
+    },
+    {
+        "name": "Gyrocopter",
+        "avatar": "Gyrocopter_icon.png",
+        "class": [
+            "Deadeye",
+            "Inventor"
+        ]
+    },
+    {
+        "name": "Lich",
+        "avatar": "Lich_icon.png",
+        "class": [
+            "Heartless",
+            "Mage"
+        ]
+    },
+    {
+        "name": "Techies",
+        "avatar": "Techies_icon.png",
+        "class": [
+            "Scrappy",
+            "Inventor"
+        ]
+    },
+    {
+        "name": "Tidehunter",
+        "avatar": "Tidehunter_icon.png",
+        "class": [
+            "Scaled",
+            "Hunter"
+        ]
+    }
+]

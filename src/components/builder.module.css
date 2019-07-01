@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+}
+
+.allHeroes {
+  flex: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.allHeroes > div {
+  margin: 0 8px 8px 0;
+}
+
+.comp {
+  flex: 1;
+}
+
+.heroGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heroContainer {
+  width: 54px;
+}

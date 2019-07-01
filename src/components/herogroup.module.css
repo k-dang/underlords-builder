@@ -1,0 +1,12 @@
+/* .heroGroupContainer {
+  margin: 6px;
+} */
+
+.heroGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heroContainer {
+  width: 54px;
+}
