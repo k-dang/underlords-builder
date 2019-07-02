@@ -5,5 +5,9 @@
 
 .heroContainer {
   width: 62px;
-  padding: 0 8px 8px 0;
+}
+
+.heroContainer:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }

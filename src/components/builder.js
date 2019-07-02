@@ -96,9 +96,9 @@ const Builder = props => {
               </div>
             ))}
           </div>
-          <h1>Alliance buffs</h1>
+          <h2>Alliance buffs</h2>
           {buffs.map((buff, index) => (
-            <div key={index} style={{marginBottom: `10px`}}>
+            <div key={index} style={{ marginBottom: `10px` }}>
               <div className={builderStyles.buffGroupContainer}>
                 {Array.from(Array(buff.times)).map((i, ind) => (
                   <div key={ind} className={builderStyles.buffContainer}>

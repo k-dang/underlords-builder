@@ -38,3 +38,8 @@
 .heroContainer {
   width: 62px;
 }
+
+.heroContainer:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
